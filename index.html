@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b43728b449.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Header-->
+    <div class="header" id="head">
+        <div class="container-1">
+
+
+            <nav id="main-nav">
+			    <h1>Tony.<span>Portfolio</span></h1>
+			    <ul class="nav-links" id="nav-link">
+			        <li><a href="#head">Home</a></li>
+			 
+			        <li><a href="#about">About</a></li>
+
+			        <li><a href="#services">Skills</a></li>
+			        <li><a href="#port">Portfolio</a></li>
+			        <li><a href="#Contact">Contact</a></li>
+			        <li><i class="fa-regular fa-rectangle-xmark"   onclick="closemenu()"></i></li>
+			    </ul>
+			    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+
+            <div class="wrapper">
+			  <h1>
+				  <div class="typewrite" data-period="2000" data-type='[ "Hi, I am Tony.", "I am web developer.", "I am Software developer.", "I am designer.","i am Freelancer." ]'>
+				    <span class="wrap"></span>
+				  </div>
+			</h1>
+        </div>
+    </div>
+</div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/kasi-vigorous.png"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    
+                      <div class="works">
+                        <p>Hi i'm tony matome Rathelele 23 years i'm a software developer, also web developer.<br> I'm still a student at richfield college doing software development.
+                        <br><br>
+                        Completed certificate in information technology in 2021 <br><br>
+                        I have knowedge in this languages C++, VBA.net, .Net maui, HTML, css, javascript, php and python. <br><br>Proficient in Microst office(excel, word, powerpoint & Access)<br>
+                        strong in problem-solving and analytical skills
+                        <br>Excellent in attention to detailed and organizational abilities.<br> Actively participating in online coding communities and self-learning platforms to enhance coding skills<br>
+
+                        <br> Im currently doing bsc in information technology at Richfield graduate institution which is my second year<br>
+                        </p>
+                    </div>
+                    
+                    
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                          <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Developer</span><br>Coding & designing websites</li>
+                            <li><span>Graphic designer</span><br>Designing </li>
+                        </ul>
+                    </div>
+
+                      <div class="tab-content" id="Experience">
+                        <ul>
+                        	<li><span>2020</span><br></li> 
+                            <li><span>2022</span><br>Web maintainer at Premierhomeware</li> 
+                        </ul>
+                    </div>
+
+                      <div class="tab-content" id="Education">
+                        <ul>
+                        	<li><span>2020</span><br>IT & computerscience level2 at Ekurhuleni west college</li>
+                            <li><span>2021</span><br>IT at Richfield graduate institution</li>
+                            <li><span>2022</span><br>BscIT 1st year at Richfield graduate institution</li>
+                            <li><span>2023</span><br>BscIT 2nd year at Richfield graduate institution</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Design</h2>
+                    <h4>Front end developer</h4><br>
+                    <p1>
+                        <ul>
+                        	<li>i'm still a web junior which i have knowledge of this:</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>Javascript</li>
+                            
+                        </ul>
+                    </p1><br>
+                     <h4>Back end web developer</h4>
+                    <p1>
+                        <ul >
+                            <li>PHP</li>
+                            <li>Database design</li>
+                            <li>SQL database</li>
+
+                        </ul>
+                    </p1>
+                   
+                </div>
+                 <div>
+                    <i class="fa fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p1>
+                         <ul>
+                            <li>Extending my experience in Photoshop</li>
+                            <li>Image designing</li>
+                            
+                        </ul>
+                    </p1>
+                </div>
+
+                 <div>
+                    <i class="fa-solid fa-code"></i> 
+                    <h2>Developer languages & Tools</h2>
+                    <p1>
+                        <ul >
+                        	<h4>understanding:</h4><br>
+                            <li>C++</li>
+                            <li>VBA.NET / +3years</li>
+                            <li>.NET MAUI BLAZOR</li>
+                            <li>Github</li>
+                        </ul>
+                    </p1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio" id="port">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div>
+                <h3>The work that has been done:</h3>
+                <p>I have been working with some other group called kasi vigorous tech <br><br>
+                    Includes:<br>
+                    <li>Web development</li>
+                    <li>online marketing</li>
+                    <li>Graphic designing</li><br>
+                    <h4>E-commerce content intern:</h4>
+                    <li>Adding images on E-commerce website through system and website backend</li> </p>
+                    <a href="https://kvtech.co.za/works/">Click here</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="Objective" id="objectives">
+        <div class="container">
+            <h1 class="sub-title">My objective</h1>
+            <p>Highly motivated and detail-oriented higher certificate in information technology gruduate at Richfield<br>
+            seeking an opportunity to apply my skills in HTML, css,javascript,SQL database,C++, VBA.net and PHP while continuing to exapand my knowledge
+            in C++,C#, .Net MAUI blazor app and Angular development.<br>Currently pursuing a Bachelor of sciences in information technology at Richfield graduate college  </p>
+        </div>
+    </div>
+     <div class="Contact" id="Contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+             <section class="contact_icon">
+                                <a href="mail.com"><i class="fa-solid fa-envelope"></i>&nbsp;tonyrathelele@gmail.com</a><br><br>
+                                <a href="https://www.linkedin.com/in/tony-rathelele-516296272"><i class="fa-brands fa-linkedin"></i>&nbsp;tony-rathelele</a><br><br>
+                                <a href=""><i class="fa fa-phone"></i></a> 0726309462 | 0814053824 | 0677706270
+                           </section>
+        </div>
+        
+    </div>
+     <footer>
+        <p>&copy; 2023 Tony Matome Rathelele - IT Portfolio</p>
+    </footer>
+ 
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")   
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")  
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab"); 
+        }
+    </script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="mobile.js"></script>
+
+
+</body>
+</html>
